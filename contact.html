@@ -18,13 +18,43 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end navbar-nav" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse justify-content-end navbar" id="navbarNavAltMarkup">
           <a class="nav-link" href="index.html">About Me</a>
           <a class="nav-link" href="portfolio.html">Portfolio</a>
           <a class="nav-link active" href="#">Contact</a>
       </div>
     </nav>
-    <h1>Contact</h1>
+    
+    <div class="container content"> 
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="First Last">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="subject">Subject</label>
+            <input type="text" class="form-control" id="subject">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
